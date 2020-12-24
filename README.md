@@ -29,10 +29,11 @@ console.log("largest:", getLargestNumInArray(array));
 
 ## Get Smallest number in an array
 
+ - if the array was sorted in descending order, then the largest value would be at array[0], and the smallest would be at array.length - 1,
+ - if ascending order, then the largest value would be at array.length - 1 and the smallest would be at array[0]
+ 
 ```
 const getSmallestNumInArray = (array) => {
-  // if the array was sorted in descending order, then the largest value would be at array[0], and the smallest would be at array.length - 1,
-  // if ascending order, then the largest value would be at array.length - 1 and the smallest would be at array[0]
   let min = array[0];
   for (let i = 0; i < array.length; i++) {
     if (min > array[i]) {
