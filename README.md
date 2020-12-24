@@ -7,7 +7,7 @@ Example: let array = [7, 9, 1, 6];
 
 ```
 function getLargestNumInArray(array) {
-  let max = array[0]; // max is now 7, first index of array.
+  let max = array[0];
   for (let i = 0; i < array.length; i++) {
     if (max < array[i]) {
       max = array[i]; 
