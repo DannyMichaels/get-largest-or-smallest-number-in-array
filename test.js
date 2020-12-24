@@ -1,5 +1,13 @@
 let array = [7, 9, 1, 6];
 
+// min = 1
+// max = 9
+// sum = 7+9+1+6 = 23
+
+// maxSum = sum - minNumber => 23 - 1 = 22
+// minSum = 23 - 9 = 14
+// 14 22
+
 // we start at 0, we assume that the value at index 0 is the maximum number
 // we loop through each of the elements one by one
 // we compare the value of max with the value of number in current index
