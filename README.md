@@ -1,7 +1,7 @@
 # get largest or smallest number in array
 
-first create an aray, 
-example: let array = [7, 9, 1, 6];
+First create an array. <br/>
+Example: let array = [7, 9, 1, 6];
 
 ## Get largest number in an array
 
