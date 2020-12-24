@@ -5,6 +5,14 @@ Example: let array = [7, 9, 1, 6];
 
 ## Get largest number in an array
 
+
+- we start at 0, we assume that the value at index 0 is the maximum number
+- we loop through each of the elements one by one
+- we compare the value of max with the value of number in current index
+- if value in current index is greater than max we replace max with the value in current index
+- as long as i is less than array.length, keep looping
+- and once it stops looping after it scans the whole array, return the value of max.
+
 ```
 function getLargestNumInArray(array) {
   let max = array[0];
