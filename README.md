@@ -45,3 +45,9 @@ const getSmallestNumInArray = (array) => {
 
 console.log("smallest:", getSmallestNumInArray(array));
 ```
+
+## In conclusion.
+
+Yes, you can solve this with built in methods like reduce, Math.min, Math.max, etc...
+BUT, you should really understand what's actually going on before moving to built in methods.
+
